@@ -1,42 +1,97 @@
-# ☕ Starbucks Landing Page
+# ☕ Landing Page Starbucks
 
-Landing page responsiva inspirada na Starbucks, desenvolvida com foco em **Mobile First**, animações suaves e boas práticas de front-end moderno.
+Landing page responsiva inspirada no site da Starbucks, desenvolvida com foco em **Mobile First**, boa organização de estilos e interações simples em JavaScript.
 
-O projeto tem como objetivo praticar layout responsivo, UI/UX e animações com CSS/SCSS e JavaScript puro.
-
----
-
-## 🔎 Preview
-
-![Preview do projeto](./src/images/previews)
-
-> Interfaces adaptável para mobile, tablet e desktop.
+🔗 **Demo online:**  
+https://starbucks-lyart-five.vercel.app/
 
 ---
 
-## 🚀 Tecnologias utilizadas
+## 📸 Preview
 
-- HTML5
-- SCSS (Sass)
-- JavaScript (Vanilla)
-- Font Awesome
-- Mobile First Design
+### Mobile
+![Mobile Preview](src/images/previews/mobile.png)
 
----
+### Tablet
+![Tablet Preview](src/images/previews/tablet.png)
 
-## ✨ Funcionalidades
-
-- Menu mobile animado (hamburger -> X)
-- Navegação responsiva
-- Animações suaves com CSS (`keyframes` e `transition`)
-- Layout Mobile First
-- Cards com avaliações e destaque visual
-- Estrutura organizada e escalável com SCSS
+### Desktop
+![Desktop Preview](src/images/previews/desktop.png)
 
 ---
 
-## ▶️ Como executar o projeto
+## 🎯 Objetivo do Projeto
+
+Este projeto foi criado com o objetivo de demonstrar:
+
+- Construção de **landing pages modernas**
+- Aplicação do conceito **Mobile First**
+- Organização de estilos com **SCSS**
+- Interações básicas utilizando **JavaScript Vanilla**
+- Layout responsivo e adaptável a diferentes dispositivos
+
+É um projeto voltado para **portfólio**, simulando um site institucional real.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- HTML5  
+- CSS3  
+- SCSS  
+- JavaScript (Vanilla)  
+- Vercel (deploy)
+
+---
+
+## 📱 Responsividade
+
+O layout foi desenvolvido seguindo a abordagem **Mobile First**, garantindo:
+
+- Boa experiência em smartphones  
+- Ajustes visuais para tablets  
+- Layout completo e espaçado para desktop  
+
+---
+
+## 📂 Estrutura do Projeto
+
+📦 landing-page-Starbucks
+┣ 📂 src
+┃ ┣ 📂 images
+┃ ┃ ┗ 📂 previews
+┃ ┣ 📂 styles
+┃ ┗ 📂 scripts
+┣ 📜 index.html
+┣ 📜 README.md
+
+---
+
+## ▶️ Como Rodar o Projeto Localmente
 
 1. Clone o repositório:
-```bash
-git clone https://github.com/Ale-LSC/starbucks-landing-page.git
+```bash```
+git clone https://github.com/Ale-LSC/landing-page-Starbucks.git
+
+cd landing-page-Starbucks
+
+Abra o arquivo index.html no navegador
+
+ou utilize uma extensão como Live Server no VS Code.
+
+
+
+## 🧠 Aprendizados e Desafios
+
+Organização de estilos com SCSS
+
+Criação de layouts flexíveis e responsivos
+
+Ajustes para diferentes breakpoints
+
+Estruturação limpa de HTML e CSS para facilitar manutenção
+
+## 👤 Autor
+
+Desenvolvido por Alexandro Caputt
+🔗 GitHub: https://github.com/Ale-LSC
