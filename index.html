@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- CSS compilado do SCSS -->
+    <link rel="stylesheet" href="src/css/styles.css">
+
+    <title>Starbucks</title>
+</head>
+
+<body>
+
+<header id="header">
+    <nav class="navbar">
+        <img src="src/images/logo-starbucks.png" alt="Starbucks Logo" class="logo">
+
+        <button class="btn btn-mobile" arial-label="Abrir Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <ul id="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#trending">Em Alta</a></li>
+            <li><a href="#about">Sobre Nós</a></li>
+            <li><a href="#products">Novidades</a></li>
+        </ul>
+
+        <a href="#" class="btn btn-default">Contatar</a>
+    </nav>
+</header>
+
+<main id="container">
+
+    <!-- HOME -->
+    <section id="home">
+        <img src="src/images/detail.png" alt="Starbucks Detail" class="home-image">
+
+        <h1 class="home-title">
+            MAIS QUE CAFÉ, UMA <span>EXPERIÊNCIA</span>
+        </h1>
+
+        <p class="home-description">
+            Descubra nossos novos sabores de café e viva momentos únicos com quem você ama.
+        </p>
+
+        <div class="home-actions">
+            <a href="#" class="btn btn-default">Conhecer</a>
+            <a href="#" class="btn btn-outlined">Contatar</a>
+        </div>
+    </section>
+
+    <!-- TRENDING -->
+    <section id="trending">
+        <h2 class="title">Em Alta</h2>
+
+        <div class="trending-cards">
+
+            <div class="trending-card">
+                <img src="src/images/trending/card1.png" alt="Capuccino com canela">
+                <div class="trending-rate">
+                    <p>5 <i class="fa-solid fa-star"></i></p>
+                </div>
+                <p class="trending-card-description">Capuccino com canela</p>
+            </div>
+
+            <div class="trending-card">
+                <img src="src/images/trending/card2.png" alt="Chá de hortelã com limão">
+                <div class="trending-rate">
+                    <p>4.8 <i class="fa-solid fa-star"></i></p>
+                </div>
+                <p class="trending-card-description">Chá de Hortelã com limão</p>
+            </div>
+
+            <div class="trending-card">
+                <img src="src/images/trending/card3.png" alt="Milk Shake de Strawberry">
+                <div class="trending-rate">
+                    <p>4.6 <i class="fa-solid fa-star"></i></p>
+                </div>
+                <p class="trending-card-description">Milk Shake de Strawberry</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+        <h2 class="title">Sobre Nós</h2>
+
+        <div class="about-content">
+            <img src="src/images/about/about-us.png" alt="Sobre a Starbucks" class="about-image">
+
+            <div class="about-info">
+                <h3>Nossa <span>História</span></h3>
+                <p>
+                    Fundada em 1971 em Seattle, Washington, a Starbucks começou como uma pequena loja de café
+                    especializada em grãos de alta qualidade e equipamentos para preparo de café.
+                </p>
+            </div>
+
+            <div class="about-info">
+                <h3>Nossa <span>História</span></h3>
+                <p>
+                    Com o tempo, expandiu-se globalmente, tornando-se uma das
+                    <span>maiores redes de cafeterias do mundo</span>, conhecida por sua variedade de bebidas,
+                    ambiente acolhedor e compromisso com a sustentabilidade.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRODUCTS -->
+    <section id="products">
+        <h2 class="title">Novidades</h2>
+
+        <div class="products-cards">
+
+            <div class="product-card">
+
+                <img src="src/images/products/1.png" alt="">
+                <div class="product-content">
+                    <h3>
+                        Moccha
+                        <span>Chocolate</span>
+                    </h3>
+                </div>
+
+            </div>
+
+            <div class="product-card">
+                
+                <img src="src/images/products/2.png" alt="">
+                <div class="product-content">
+                    <h3>
+                        Moccha
+                        <span>Café Latte</span>
+                    </h3>
+                </div>
+
+            </div>
+
+            <div class="product-card">
+                
+                <img src="src/images/products/3.png" alt="">
+                <div class="product-content">
+                    <h3>
+                        Moccha
+                        <span>Morango e Melancia</span>
+                    </h3>
+                </div>
+
+            </div>
+
+            <div class="product-card">
+                
+                <img src="src/images/products/4.png" alt="">
+                <div class="product-content">
+                    <h3>
+                        Moccha
+                        <span>Morango</span>
+                    </h3>
+                </div>
+
+            </div>
+
+        </div>
+</main>
+
+<footer></footer>
+
+<script src="src/js/scripts.js"></script>
+</body>
+</html>
